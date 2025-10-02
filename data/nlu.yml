@@ -3,19 +3,19 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Слушаю
+    - Привет
+    - Добрый день
+    - Говорите
+    - Говорите я вас слушаю
+    - Алло
+    - Алло да говорите
+    - Говорите вас плохо слышно
+    - Да добрый день, что вы хотели
+    - Здравствуйте
+    - Ага слушаю
+    - ДА что вы хотели
+    - Добрый вечер
 
 - intent: goodbye
   examples: |
