@@ -1,33 +1,26 @@
 version: "3.1"
 
 intents:
+  - ask_procedure_details
+  - confirm_lead
+  - confirm_appointment
+  - dconfirm_urgency
+  - provide_availability
+  - provide_city
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
 
 responses:
-  utter_greet:
-  - text: "Здравствуйте я ваш персональный ассистент"
+  utter_smas_greeting:
+    - text: "Алла: Добрый день! Меня зовут Милена. Я звоню вам по заявке к врачу-косметологу. Вы оставляли заявку на процедуру омоложения кожи лица SMAS-лифтинг, прием без финансовых затрат. Все верно?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_gorod:
+    - text: "Вы в городе Краснодар проживаете?"
+  
+  utter_adress_details:
+  - text: "Находимся Мы в городе Краснодаре очень удобно расположены в районе кооперативного рынка Красная 70 прямо напротив Ростелекома вход у нас рядом с магазином подружка второй этаж программа ограничена по времени, я веду запись на сегодня или завтра"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  
 
 session_config:
   session_expiration_time: 60

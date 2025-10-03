@@ -1,0 +1,12 @@
+- intent: provide_availability
+  examples: |
+    - могу [завтра с 10 до 18](time_slot)
+    - свободен [сегодня после 15](time_slot) 
+    - время [пн-пт с 9 до 12](time_slot)
+    - [любое время](time_slot) в течение дня
+    - [утром с 9 до 11](time_slot)
+    - [вечером после 18](time_slot)
+    - [в выходные](time_slot)
+    - [в любой день](time_slot) после 17:00
+    - [завтра весь день](time_slot)
+    - [сегодня до 14](time_slot)
